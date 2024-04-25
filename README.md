@@ -1,5 +1,5 @@
 # bgame_wiki_pcr
-基于pyppeteer截取公主连结wiki_BWIKI的活动日历
+基于pyppeteer截取[公主连结wiki_BWIKI](https://wiki.biligame.com/pcr/%E9%A6%96%E9%A1%B5)的活动日历
 
 ## 安装方法
 >pip install -r requirements.txt
