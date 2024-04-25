@@ -1,7 +1,6 @@
 from pyppeteer import launch
 import asyncio
 from hoshino import R
-from PIL import Image
 
 # 等待时长 网络较慢时可以调高 但不能太低
 waittime = 5
@@ -37,10 +36,9 @@ async def spider():
     # 分辨率缩放比影响截图，推荐使用无头模式截图
     elements = await page.xpath(f'//div[text()="活动日历"]/../..')
     element = elements[0]
+    img = FILE_PATH + r'\date_cal.png'
     await element.screenshot({
-        'path': 'date_cal.png'
+        'path': img
     })
-    img = Image.open('date_cal.png')
-    img.save(FILE_PATH + r'\date_cal.png')
 
 asyncio.get_event_loop().run_until_complete(spider())
