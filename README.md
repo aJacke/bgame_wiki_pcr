@@ -4,6 +4,8 @@
 ## 安装方法
 >pip install -r requirements.txt
 
+之后在你的Hoshino res文件夹下创建bwiki的文件夹即可
+
 ***注意事项***
 
 如果安装pyppeteer失败，可以参考[这里](https://blog.csdn.net/qq_41362018/article/details/108010246)的方法
