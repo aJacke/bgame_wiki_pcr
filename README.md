@@ -8,7 +8,7 @@
 
 ***注意事项***
 
-如果安装pyppeteer失败，可以参考[这里](https://blog.csdn.net/qq_41362018/article/details/108010246)的方法
+如果安装pyppeteer失败，可以参考[这里]((https://www.jianshu.com/p/0592a73ee729))的方法
 
 ## 使用方法
 
