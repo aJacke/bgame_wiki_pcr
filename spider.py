@@ -40,5 +40,6 @@ async def spider():
     await element.screenshot({
         'path': img
     })
+    await browser.close()
 
 asyncio.get_event_loop().run_until_complete(spider())
